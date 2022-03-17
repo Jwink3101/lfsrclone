@@ -2,7 +2,7 @@
 """
 lfsrclone: rclone-based transfer agent for git-lfs
 """
-__version__ = "20220317.0.BETA"
+__version__ = "20220317.1.BETA"
 
 import argparse
 import sys, os
