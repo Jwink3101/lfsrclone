@@ -18,7 +18,7 @@ from setuptools import setup
 
 setup(
     name="lfsrclone",
-    #     py_modules=[],
+    py_modules=["lfsrclone"],
     long_description=open("readme.md").read(),
     entry_points={"console_scripts": ["lfsrclone=lfsrclone:Main"],},
     python_requires=">=3.6",

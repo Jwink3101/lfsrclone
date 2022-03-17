@@ -59,7 +59,10 @@ This project is heavily inspired by [lfs-folderstore][folder] and [git-lfs-swift
 
 ## Install
 
+**PyPI To come later**
 
+
+    $ python -m pip install git+https://github.com/Jwink3101/lfsrclone
 
 ## Configure LFS
 
