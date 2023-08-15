@@ -2,6 +2,17 @@
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
+****
+# Status
+
+I am not actively developing this tool anymore. There wasn't enough interest, including for my own use cases, to warrant them time. 
+
+With that said, here is my roadmap for development if I do ever return
+
+- Change flag API to not use the deprecated and undocumented `argparse` feature. The current approach is nice but I don't like relying on undocumented features. Instead, there will be a flag where you then specify rclone options. (minor)
+- Move to the rclone API to allow sessions greatly reducing traffic, API Calls, costs, etc. (major)
+    - I think LFS provides the way to start and end a server but I'd have to play. This is needed to make this a viable tool since you otherwise waste a ton of API calls.
+
 ***
 
 # BETA
